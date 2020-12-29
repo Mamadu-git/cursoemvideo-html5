@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body bgcolor="beige"><h1 align="CENTER" style="background-color: steelblue">FOEMULAIRE D'INSCRIPTION</h1>
+	<fieldset style="background-color:skyblue">
+	<form method="post" id="contact" action="maito:mamadubdj@gmail.com">
+		<table width="100%" align="center">
+			<tr>
+				<th> <label for="tnom"> Nom:</label></th>
+				<td><input type="text" name="nnom" id="tnom" size="25"> </td>
+				<th><label for="tprenm"> Prenom:</label></th>
+				<td><input type="text" placeholder="Ex:Mamadu Billw" name="nprenm" id="tprenm" size="25"> </td>
+				<!--permet de donner ex de um text q vas ecrire en input-->
+			</tr>
+			<th>Genre</th>
+				<td><input type="radio" name="Genre">M &nbsp;&nbsp; 
+				<input type="radio" name="Genre">F &nbsp;&nbsp; </td>
+				<!-- name "genre" o mesmo para os dois isso permite que os selecine so uma delas Mou F-->
+
+					<th>Situation</th>
+					<td><Select>
+						<option  disabled="Selecte">Selectioner situation</option>
+						<option>Marie</option>
+						<option>Celibataire</option>
+					</Select> 
+				</td>
+			</tr>
+			<tr>
+				<th><label for="ttel"> Telephone:</th>
+				<td><input type="Telephone" placeholder="Ex77 101 22 88" name="ntel" id="ttel" size="25"></td><!--size c'est la taille maxlenght c'maximun de chiffre ou lettres qui vas ecrire-->
+				<th><label for="tmail"> Email:</label></th>
+				<td><input type="Email" name="cmail" id="tmail" size="25"></td>
+			</tr>
+			<tr>
+				<th><label for="tdate"> Date de Naissence:</label></th>
+				<td><input type="Date" name="cdate" id="tdate" size="25"></td>
+				<th><label for="tlieu"> Lieu:</label></th>
+				<td><input type="text" name="clieu" id="tlieu" size="25"></td>
+				<!--id(para identificar) (label for ) permite que quando tocamos no nome automaticamente que selecione o campo ou..-->
+			</tr>
+			<tr>
+				<th>Langages:</th>
+				<td><input type="checkbox" name="cangl" id="tangl"><label for="tangl"> anglais</label> </td>
+				<td align="center"><input type="checkbox" name="cangl" id="tfranc"><label for="tfranc">francais</label> </td>
+				<td><input type="checkbox" name="cport" id="tport"><label for="tport"> portugues</label><input type="checkbox" name="cautr" id="tautr"><label for="tautr"> Autres</label></td>
+				
+			</tr>
+			<tr>
+				<th>Nationalite</th>
+				<td><select>
+					<option>Bissau Guineen</option>
+					<option>Senegalais</option>
+					<option>Congolais</option>
+					<th>Age:</th>
+					<td>
+						<input type="number"  min="1" name="cage" id="tage">
+					</select></td>
+				</td>
+			</tr>
+			<tr>
+				<th><label for="tuti"> Nom d'utilisateur:</label></th>
+				<td><input type="text" name="cutili" id="tuti" size="25" required=""></td>
+				<th><label for="tmpass"> Mot de Passe:</label></th>
+				<td><input type="Password" name="cmpass" id="tmpass" size="25"></td>
+			</tr>
+			<tr>
+				<td align="center"><br><br>
+					<input type="submit" name="Envoyer" value="Envoyer" style="color: green">
+				</td>
+				<td align=""><br><br>
+					<input type="reset" name="Annuler" value="Annuler" style="color: red" >
+				</td>
+			</tr>
+			
+		</table>
+
+	</form>
+	</fieldset>
+
+</body>
+</html>

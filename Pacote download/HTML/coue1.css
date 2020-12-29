@@ -1,0 +1,37 @@
+
+	.division1{
+		margin-left: 25%;
+		margin-top: 5%;
+/* margin : 5% 0 0 25%; 
+border==   */
+		padding: 2%;
+	}
+	.division1 p{
+		text-transform: uppercase;
+		color: red;
+		font-weight: bold;
+		font-size: 20px;
+		letter-spacing: 0.2em;
+		text-align: center;
+	}
+	body{
+		background-color: skyblue;
+	}
+	#menu{
+		width:80%;
+		margin-top: 2%;
+		margin-left: 10%;
+		background: red;
+		padding: 2%;
+	}
+	#menu a{
+		margin-right: 5%;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-size: 20px;
+		font-family: verdana;
+		border: 2px solid yellow;
+		border-radius:10%;
+		float: righ
+
+	}

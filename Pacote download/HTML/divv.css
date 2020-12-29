@@ -1,0 +1,19 @@
+body{
+	width: 100%;
+	height:100%;
+background-color: black;
+}
+#Billw{
+	width: 50%; 
+	height: 50%;
+	color: blue;
+	float: left;
+}
+#bass{
+	width: 45%; 
+	height: 45%;
+	color: yellow;
+	float: left;
+	margin: 20px;
+    
+}
